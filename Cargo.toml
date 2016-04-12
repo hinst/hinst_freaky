@@ -1,0 +1,7 @@
+[package]
+name = "hinst_freaky"
+version = "0.0.1"
+authors = [ "hinst"]
+
+[[bin]]
+name = "program"
