@@ -5,3 +5,6 @@ authors = [ "hinst"]
 
 [[bin]]
 name = "program"
+
+[dependencies]
+rand = "*"
