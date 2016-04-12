@@ -1,5 +1,11 @@
 use std::time;
 
 struct Character {
-  age: time::Duration,
+	health: i32,
+}
+
+impl Character {
+    fn age() -> time::Duration {       
+		time::Duration::zero() 
+    }
 }
