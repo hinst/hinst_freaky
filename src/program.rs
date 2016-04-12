@@ -3,6 +3,7 @@ extern crate rand;
 use std::io;
 use rand::Rng;
 mod app;
+mod game;
 
 fn main() {
   println!("GLOBAL START");

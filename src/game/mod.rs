@@ -1,3 +1,5 @@
+use std::time;
+
 struct Character {
-  age u64,
+  age: time::Duration,
 }
