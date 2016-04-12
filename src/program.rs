@@ -2,6 +2,7 @@ extern crate rand;
 
 use std::io;
 use rand::Rng;
+mod app;
 
 fn main() {
   println!("GLOBAL START");
@@ -10,5 +11,5 @@ fn main() {
   println!("Received text: '{}'", text);
   let random_number = rand::thread_rng().gen_range(0, 10);
   println!("random_number = {}", random_number);
-  println!("GLOBAL EXIT")
+  println!("GLOBAL EXIT");
 }
