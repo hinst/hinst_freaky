@@ -1,3 +1,5 @@
+extern crate chrono;
+
 use std::time;
 
 struct Character {
@@ -5,7 +7,7 @@ struct Character {
 }
 
 impl Character {
-    fn age() -> time::Duration {       
-		time::Duration::zero() 
-    }
+		fn age() -> time::Duration {       
+			time::Duration::zero() 
+		}
 }
