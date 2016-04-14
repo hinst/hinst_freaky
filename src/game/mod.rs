@@ -2,6 +2,8 @@ extern crate time;
 
 struct Character {
 	health: i32,
+	vitality: i32,
+	strength: f32,
 }
 
 impl Character {
