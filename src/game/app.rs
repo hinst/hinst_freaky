@@ -1,4 +1,6 @@
-struct App;
+struct App {
+	game: &Game,
+}
 
 impl App{
 
