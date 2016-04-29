@@ -1,10 +1,16 @@
-struct App {
-	game: &Game,
+use game::game::*; 
+
+pub struct App {
+	game: Game,
 }
 
 impl App{
 
-  pub fn run(&self) {
+  fn run(&self) {
+  }
+  
+  pub fn default() -> App {
+    App { game: Game::default() }
   }
   
 }

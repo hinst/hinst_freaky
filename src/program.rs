@@ -5,7 +5,9 @@ use rand::Rng;
 
 mod game;
 
+use game::app::*;
+
 fn main() {
   println!("GLOBAL START");
-  let app = App{};
+  let mut app = App::default();
 }
